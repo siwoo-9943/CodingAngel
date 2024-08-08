@@ -1,0 +1,159 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+header{
+  background-color: white;
+  border-bottom: 1px solid #dfe2e6;
+  height: 89px;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 60px;
+}
+
+.login-img{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2{
+  font-size: 30px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  transform: translate(190px, -20px);
+}
+
+.login-main{
+  margin: 100px auto;
+  width: 500px;
+  height: 650px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+#id{
+  width: 430px;
+  height: 50px;
+  margin-left: 5%;
+  margin-top: -20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#id-result{
+  padding: 5px;
+}
+
+#pw{
+  width: 430px;
+  height: 50px;
+  margin-left: 5%;
+  margin-top: -20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#pw-result{
+  padding: 2px;
+}
+
+.login-easy-img {
+  margin-left: 20px;
+  margin: 20px;
+}
+
+#togglePassword{
+  transform: translate(405px, -45px);
+  border-color: white;
+  background-color: white;
+  border: none;
+}
+
+#togglePassword img {
+  display: none;
+}
+
+#togglePassword img.show {
+  display: inline;
+}
+
+#login{
+  width: 435px;
+  height: 50px;
+  margin-left: 5%;
+  background-color: lightpink;
+  border-color: rgb(253, 192, 232);
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  transform: translate(1px, -45px);
+}
+
+.login-auto {
+  cursor: pointer;
+
+}
+
+.login-auto-main {
+  position: relative;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+
+.logion-other-main {
+  position: relative;
+}
+
+
+.login-other{
+  position: absolute;
+  display: flex;
+  list-style-type: none;
+  top: -42px;
+  right: 38px;
+}
+
+.login-other li {
+  padding: 2px;
+}
+
+.login-join{
+  font-size: 16px;
+  cursor: pointer;
+  color: rgb(87, 86, 86);
+}
+
+.liogin-line{
+  color: rgb(87, 86, 86);
+}
+
+.login-find{
+  font-size: 16px;
+  cursor: pointer;
+  color: rgb(87, 86, 86);
+}
+.login-easy-main{
+  display: block;
+}
+
+
+.login-easy{
+  display: inline-block;
+  transform: translate(205px,10px);
+}
+
+.login-easy-img{
+  margin-left: 20px;
+  margin: 29px;
+}
+
+footer {
+  padding: 70px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 19px;
+  color: #aaa;
+}
