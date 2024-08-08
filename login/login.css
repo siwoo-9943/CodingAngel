@@ -11,6 +11,7 @@ header{
   padding-bottom: 60px;
 }
 
+/* 상단이미지 */
 .login-img{
   margin: 0px;
   padding: 0px;
@@ -35,7 +36,7 @@ h2{
   justify-content: center;
   border: 1px solid black;
 }
-
+/* 아이디 */
 #id{
   width: 430px;
   height: 50px;
@@ -47,7 +48,7 @@ h2{
 #id-result{
   padding: 5px;
 }
-
+/* 비밀번호 */
 #pw{
   width: 430px;
   height: 50px;
@@ -64,7 +65,7 @@ h2{
   margin-left: 20px;
   margin: 20px;
 }
-
+/* 비밀번호 토글 */
 #togglePassword{
   transform: translate(405px, -45px);
   border-color: white;
@@ -79,7 +80,7 @@ h2{
 #togglePassword img.show {
   display: inline;
 }
-
+/* 로그인버튼 */
 #login{
   width: 435px;
   height: 50px;
@@ -123,8 +124,13 @@ h2{
 .login-join{
   font-size: 16px;
   cursor: pointer;
+}
+
+.login-join a{
+  text-decoration: none;
   color: rgb(87, 86, 86);
 }
+
 
 .liogin-line{
   color: rgb(87, 86, 86);
@@ -139,7 +145,7 @@ h2{
   display: block;
 }
 
-
+/* 간편로그인 */
 .login-easy{
   display: inline-block;
   transform: translate(205px,10px);
