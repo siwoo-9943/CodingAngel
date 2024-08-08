@@ -1,0 +1,601 @@
+/* 초기 지정 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ---- header 영역 ---- */
+
+.header-container {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header-top-main img {
+    width: 130px;
+    cursor: pointer;
+    transform: translate(-5%, -4%);
+}
+
+.header-main-Info {
+    position: relative;
+}
+
+.header-main-Info-sub {
+    display: flex;
+    height: 38px;
+}
+
+.CodingAngel-info-class {
+    width: 45px;
+    padding-left: 30px;
+    transform: translate(230%, 58%);
+}
+
+.CodingAngel-info-class-text {
+    top: 53px;
+    font-size: 13px;
+    color: #222;
+    font-weight: 700;
+    order: 2;
+    transform: translate(274%, 230%);
+}
+
+.header-search {
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    width: 446px;
+    height: 46px;
+    border: 2px solid pink;
+    border-radius: 6px;
+    background-color: #fff;
+    transform: translate(2%, 91%);
+}
+
+.search-border {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-left: 14px;
+    border: none;
+    background: 0 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: normal;
+    color: #222;
+    text-align: left;
+    outline: 0;
+}
+
+.header-search-picture {
+    width: 7%;
+    cursor: pointer;
+    transform: translate(1294%, -127%);
+}
+
+.header-main-Info-sub {
+    display: flex;
+    height: 38px;
+}
+
+
+/* --- header-bottm 영역 ---*/
+
+.menubar-bundle {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.vl5 {
+    width: 1px;
+    border: 0;
+    background-color: #bbb;
+    height: 44px;
+    position: absolute;
+    left: 8px;
+    top: -2px;
+}
+
+.vl6 {
+    width: 1px;
+    border: 0;
+    background-color: #bbb;
+    height: 40px;
+    position: absolute;
+    left: 54px;
+    top: 1px;
+}
+
+.main-bar {
+    padding: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #222;
+}
+
+.main-bar img {
+    transform: translate(0%, -18%);
+}
+
+.menubar-submenu {
+    padding-top: 15px;
+}
+
+
+/* -------- main 영역 배너 ----------- */
+
+main {
+    width: 1100px;
+    margin: 0 auto;
+    height: 1700px;
+}
+
+.main-container {
+    position: relative;
+}
+
+.main-guide-title h1 {
+    padding-bottom: 43px;
+    font-weight: 700;
+    font-size: 31px;
+}
+
+.main-guide-title h2 {
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.main-guide-title p {
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #aaa;
+}
+
+.main-guide-title strong {
+    font-weight: 400;
+    color: #f27935;
+}
+
+.main-guide-step {
+    width: 1100px;
+    height: 75px;
+}
+
+.main-guide-step li {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 75px;
+    color: black;
+    text-align: center;
+    z-index: 10;
+    display: flex;
+}
+
+.step1 span {
+    padding-right: 80px;
+    transform: translate(21%, -257%);
+    z-index: 10;
+    color: white;
+}
+
+.main-guide-wrapper {
+    margin-top: 53px;
+}
+
+.form_wrapper {
+    padding: 25px 0 53px;
+    text-align: center;
+}
+
+.form-table-tip {
+    font-size: 12px;
+    color: #aaa;
+    text-align: right;
+    padding-top: 70px;
+    padding-bottom: 15px;
+}
+
+.color-point {
+    font-weight: bold;
+    color: pink;
+    transform: translate(0%, 50%);
+}
+
+.form-wrapper {
+    margin-top: 50px;
+}
+
+#detailAddress {
+    width: 30%;
+}
+
+.addressSearch {
+    cursor: pointer;
+}
+
+#deal_description {
+    resize: none;
+    box-sizing: border-box;
+    width: 20%;
+    height: 30px;
+    padding: 0 10 px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+    line-height: 40px;
+    color: #222;
+    vertical-align: top;
+}
+
+.form-privacy {
+    margin-top: 20px;
+    margin-bottom: 59px;
+    font-size: 13px;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.form-privacy-inner {
+    overflow-y: auto;
+    height: 84px;
+    padding: 18px;
+    border: 1px solid #ddd;
+    color: #aaa;
+}
+
+.form-privacy-check {
+    position: relative;
+    margin-top: 10px;
+}
+
+#privacy-check {
+    position: absolute;
+    top: -45px;
+}
+
+.check-label {
+    position: absolute;
+    top: -45px;
+    left: 14px;
+}
+
+.check-label {
+    display: inline-block;
+    color: #888;
+    vertical-align: top;
+    cursor: pointer;
+    font-size: 13px;
+    position: absolute;
+}
+
+.check-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    font-size: 10px;
+}
+
+.form-complete {
+    width: 276px;
+    height: 60px;
+    background-color: pink;
+    font-weight: 700;
+    font-size: 21px;
+    color: #fff;
+    border: 1px solid gray;
+    cursor: pointer;
+    transform: translate(150%, 50%);
+}
+
+.member-select-validate {
+    box-sizing: border-box;
+    width: 70%;
+    height: 30px;
+    padding: 0 10 px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+    line-height: 40px;
+    color: #222;
+    vertical-align: top;
+}
+
+.member-select-validate-sectors {
+    box-sizing: border-box;
+    width: 70%;
+    height: 30px;
+    padding: 0 10 px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+    line-height: 40px;
+    color: #222;
+    vertical-align: top;
+}
+
+#company-name {
+    box-sizing: border-box;
+    width: 70%;
+    height: 30px;
+    padding: 0 10 px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+    line-height: 40px;
+    color: #222;
+    vertical-align: top;
+}
+
+#postcode {
+    box-sizing: border-box;
+    width: 15%;
+    height: 30px;
+    padding: 0 10 px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+    line-height: 40px;
+    color: #222;
+    vertical-align: top;
+}
+
+#address {
+    box-sizing: border-box;
+    width: 30%;
+    height: 30px;
+    padding: 0 10 px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+    line-height: 40px;
+    color: #222;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+#detailAddress {
+    box-sizing: border-box;
+    width: 40%;
+    height: 30px;
+    padding: 0 10 px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+    line-height: 40px;
+    color: #222;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+#manager-name {
+    box-sizing: border-box;
+    width: 20%;
+    height: 30px;
+    padding: 0 10 px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+    line-height: 40px;
+    color: #222;
+    vertical-align: top;
+}
+
+#phone-Number {
+    box-sizing: border-box;
+    width: 20%;
+    height: 30px;
+    padding: 0 10 px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+    line-height: 40px;
+    color: #222;
+    vertical-align: top;
+}
+
+#EmailNumber {
+    box-sizing: border-box;
+    width: 20%;
+    height: 30px;
+    padding: 0 10 px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+    line-height: 40px;
+    color: #222;
+    vertical-align: top;
+}
+
+#EmailNumber-text {
+    box-sizing: border-box;
+    width: 20%;
+    height: 30px;
+    padding: 0 10 px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+    line-height: 40px;
+    color: #222;
+    vertical-align: top;
+}
+
+#emailCategory {
+    box-sizing: border-box;
+    width: 19%;
+    height: 30px;
+    padding: 0 10 px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+    line-height: 40px;
+    color: #222;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+#form-hompage {
+    box-sizing: border-box;
+    width: 20%;
+    height: 30px;
+    padding: 0 10 px;
+    border: 1px solid #ccc;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+    line-height: 40px;
+    color: #222;
+    vertical-align: top;
+}
+
+.postcode-search {
+    background-color: pink;
+    border: 1px solid pink;
+    color: #fff;
+    cursor: pointer;
+    width: 10%;
+    height: 30px;
+}
+
+.form-container-wrap {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+/* ---------- footer 영역 ---------- */
+
+footer {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-corp {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    position: relative;
+}
+
+.footer-image img {
+    width: 60%;
+}
+
+.footer-content-left {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 22px;
+    color: #767676;
+    letter-spacing: -.2px;
+    transform: translate(-27%, 0%);
+}
+
+.footer-content-bottom {
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #767676;
+    letter-spacing: -.2px;
+    vertical-align: top;
+}
+
+.footer-content-right {
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #767676;
+    letter-spacing: -.2px;
+    vertical-align: top;
+    transform: translate(37%, 0%);
+}
+
+.footer-content-bottom-number {
+    color: pink;
+    font-weight: bold;
+}
+
+.footer-content-question1 {
+    display: inline-block;
+    overflow: hidden;
+    height: 18px;
+    padding: 0 8px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    line-height: 18px;
+    color: #767676;
+    letter-spacing: -.66px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    transform: translate(0%, 50%);
+}
+
+.footer-content-question2 {
+    display: inline-block;
+    overflow: hidden;
+    height: 18px;
+    padding: 0 8px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    line-height: 18px;
+    color: #767676;
+    letter-spacing: -.66px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    transform: translate(107%, -60%);
+}
