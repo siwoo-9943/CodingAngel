@@ -74,7 +74,7 @@ document.getElementById('emailCategory').addEventListener('change', function() {
 
 
 function validateForm() {
-    const requiredFields = document.querySelectorAll('.form-container-wrap .color-point + span, input[required], select[required]');
+    const requiredFields = document.querySelectorAll('.form-container-wrap input[required], .form-container-wrap select[required]');
     let valid = true;
 
     requiredFields.forEach(field => {
@@ -98,6 +98,6 @@ function validateForm() {
         alert('필수 입력란을 확인해주세요.');
         return false;
     }
-
+    // 경고창 확인 후 페이지 이동
     alert('제출이 완료되었습니다. 빠른 시일내에 연락드리겠습니다.');
 }
