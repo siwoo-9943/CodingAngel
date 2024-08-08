@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+/* 헤더 */
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #dfe2e6;
+    height: 89px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 60px;
+}
+
+
+/* 로고 */
+
+.terms-logo {
+    width: 190px;
+    height: 145px;
+}
+
+
+/* 가로 구분줄 */
+
+hr {
+    width: 500px;
+    margin-bottom: 0px;
+}
+
+
+/* 체크박스 */
+
+.terms-checkbox {
+    zoom: 1.5;
+    border-radius: 4px;
+    color: #ffffff;
+    background-size: 16px;
+    width: 15px;
+    height: 15px;
+    margin: 0px 5px 0px 0px;
+}
+
+.terms-checkbox1 {
+    margin: 0px 5px 0px 0px;
+    zoom: 1.5;
+    width: 15px;
+    height: 15px;
+}
+
+
+
+/* 이용약관 동의 전체 구역 */
+
+h2 {
+    width: 500px;
+    /* background-color: gold; */
+    background-color: rgb(252, 252, 252);
+    margin: auto;
+    height: auto;
+}
+
+
+/* 이용약관 동의 타이틀 */
+
+.terms-title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 38px;
+}
+
+
+/* 모두확인, 동의합니다. */
+
+.terms-All {
+    border: 2px solid pink;
+    border-radius: 10px;
+    padding: 24px 20px 20px 24px;
+    font-size: 19px;
+}
+
+/* .terms-All strong {
+  margin-bottom: 50px;
+} */
+
+
+/* 만 14세 이상 */
+
+.terms-14 {
+    padding: 24px 20px 20px 24px;
+    font-size: 16px;
+    display: flex;
+    font-weight: 400;
+}
+
+.terms-bracket {
+    font-size: 14px;
+    color: #f27935;
+    margin: 0px 0px 0px 10px;
+    font-weight: 400;
+}
+
+
+/* 이용약관 동의 */
+
+.terms-agree {
+    padding: 24px 20px 20px 24px;
+    font-size: 16px;
+    display: flex;
+    font-weight: 400;
+}
+
+.terms-agree a {
+    margin-left: auto;
+    font-size: 13px;
+    color: #555555;
+}
+
+
+/* 개인정보 1 */
+
+.terms-personal-1 {
+    padding: 24px 20px 20px 24px;
+    font-size: 16px;
+    display: flex;
+    font-weight: 700;
+    /* padding: 23px 30px 23px 30px; */
+    position:relative;
+}
+
+.terms-personal-1 a {
+    margin-left: auto;
+    font-size: 13px;
+    color: #555555;
+    font-weight: 400;
+}
+
+/* .terms-hidden-box1 {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    color: #777;
+    position:absolute;
+    bottom:0px;
+    box-sizing: border-box;
+}
+
+.terms-hidden-text1 {
+    padding-top: 50px;
+} */
+
+
+/* 개인정보 2 */
+
+.terms-personal-2 {
+    padding: 24px 20px 20px 24px;
+    font-size: 16px;
+    display: flex;
+    font-weight: 400;
+}
+
+.terms-choice {
+    font-size: 14px;
+    color: black;
+    margin: 0px 0px 0px 10px;
+    font-weight: 400;
+}
+
+.terms-personal-2 a {
+    margin-left: auto;
+    font-size: 13px;
+    color: #555555;
+    font-weight: 400;
+}
+
+
+/* 이메일 마케팅 */
+
+.terms-email {
+    padding: 24px 20px 20px 24px;
+    font-size: 16px;
+    display: flex;
+    font-weight: 400;
+}
+
+.terms-email a {
+    margin-left: auto;
+    font-size: 13px;
+    color: #555555;
+    font-weight: 400;
+}
+
+
+/* 가입하기 버튼 */
+
+.terms-submit {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.terms-submit button {
+    height: 64px;
+    padding: 0 24px;
+    border-radius: 6px;
+    font-size: 20px;
+    /* background-color: #e37232; */
+    background-color: pink;
+    border-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* 푸터 */
+
+footer {
+    padding: 70px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 19px;
+    color: #aaa;
+}
