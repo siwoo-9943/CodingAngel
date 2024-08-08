@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingAngel-join</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./join.css">
+    <script defer src="./join.js"></script>
+</head>
+<body>
+    <header class="join-header">
+        <a href="#"><img src="./../angel img/join-img/angel logo img.jpg" alt=""></a>
+    </header>
+    <main>
+        <div class="main-wrap">
+            <div class="main-title">
+                <h2>회원정보 입력</h2>
+            </div>
+            <div class="id-container">
+                <div class="king-text">아이디</div>
+                <input type="text" id="id-input" class="main-input" placeholder="아이디를 입력해 주세요" required>
+                <div class="id-message1" style="display: none;">아이디가 유효합니다.</div>
+                <div class="id-message2" style="display: none;">아이디는 4자 이상이어야 합니다.</div>
+            </div>
+            <div class="pw-container">
+                <div class="king-text">비밀번호</div>
+                <input type="password" id="pw-input" class="main-input" placeholder="비밀번호를 입력해 주세요" required>
+            </div>
+            <div class="reconfirm-container">
+                <div class="king-text">비밀번호 재확인</div>
+                <input type="password" id="re-pwinput" class="main-input" placeholder="비밀번호를 다시 한 번 입력해 주세요" required>
+            </div>
+            <div class="pw-message1" style="display: none;">비밀번호가 일치합니다.</div>
+            <div class="pw-message2" style="display: none;">비밀번호가 일치하지 않습니다.</div>
+            <div class="name-container">
+                <div class="king-text">이름</div>
+                <input type="text" id="name-input" class="main-input" placeholder="이름을 입력해주세요" required>
+            </div>
+            <div class="year-container">
+                <div class="year-box">
+                    <div class="king-text">생년월일</div>
+                    <span class="choice-span">(선택)</span>
+                </div>
+                <div>
+                    <select>
+            <option value="">년도</option>
+            <option value="">2010</option>
+            <option value="">2009</option>
+            <option value="">2008</option>
+            <option value="">2007</option>
+            <option value="">2006</option>
+            <option value="">2005</option>
+            <option value="">2004</option>
+            <option value="">2003</option>
+            <option value="">2002</option>
+            <option value="">2001</option>
+            <option value="">2000</option>
+            <option value="">1999</option>
+            <option value="">1998</option>
+            <option value="">1997</option>
+            <option value="">1996</option>
+            <option value="">1995</option>
+            <option value="">1994</option>
+            <option value="">1993</option>
+            <option value="">1992</option>
+            <option value="">1991</option>
+            <option value="">1990</option>
+            <option value="">1989</option>
+            <option value="">1988</option>
+            <option value="">1987</option>
+            <option value="">1986</option>
+            <option value="">1985</option>
+            <option value="">1984</option>
+            <option value="">1983</option>
+            <option value="">1982</option>
+            <option value="">1981</option>
+            <option value="">1980</option>
+            <option value="">1979</option>
+            <option value="">1978</option>
+            <option value="">1977</option>
+            <option value="">1976</option>
+            <option value="">1975</option>
+            <option value="">1974</option>
+            <option value="">1973</option>
+            <option value="">1972</option>
+            <option value="">1971</option>
+            <option value="">1970</option>
+          </select>
+                    <select>
+            <option value="">월</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+            <option value="">11</option>
+            <option value="">12</option>
+          </select>
+                    <select>
+            <option value="">일</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+            <option value="">11</option>
+            <option value="">12</option>
+            <option value="">13</option>
+            <option value="">14</option>
+            <option value="">15</option>
+            <option value="">16</option>
+            <option value="">17</option>
+            <option value="">18</option>
+            <option value="">19</option>
+            <option value="">20</option>
+            <option value="">21</option>
+            <option value="">22</option>
+            <option value="">23</option>
+            <option value="">24</option>
+            <option value="">25</option>
+            <option value="">26</option>
+            <option value="">27</option>
+            <option value="">28</option>
+            <option value="">29</option>
+            <option value="">30</option>
+            <option value="">31</option>
+          </select>
+                </div>
+            </div>
+            <div class="gender-container">
+                <div class="gender-box">
+                    <div class="king-text">성별</div>
+                    <span class="choice-span">(선택)</span>
+                </div>
+                <div class="gender-radius-box">
+                    <input type="radio" id="gender-man" name="gender" class="gender-manbox gender">
+                    <label for="gender-man">남자</label>
+                    <input type="radio" id="gender-woman" name="gender" class="gender-womanbox">
+                    <label for="gender-woman">여자</label>
+                </div>
+            </div>
+            <div class="email-container">
+                <div class="king-text">이메일</div>
+                <input type="email" id="email-input" class="main-input" placeholder="이메일을 입력해주세요" required>
+            </div>
+            <button type="submit" class="join-complete"><h3>가입 완료하기</h3></button>
+        </div>
+    </main>
+    <footer>
+        <span>COPYRIGHT. TMON INC. ALL RIGHTS RESERVED.</span>
+    </footer>
+</body>
+
+</html>
