@@ -1,0 +1,291 @@
+/* 초기 지정 */
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ---- header 영역 ---- */
+
+.header-container {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header-top-main img {
+    width: 130px;
+    cursor: pointer;
+    transform: translate(-5%, -4%);
+}
+
+.header-main-Info {
+    position: relative;
+}
+
+.header-main-Info-sub {
+    display: flex;
+    height: 38px;
+}
+
+.CodingAngel-info-class {
+    width: 45px;
+    padding-left: 30px;
+    transform: translate(230%, 58%);
+}
+
+.CodingAngel-info-class-text {
+    top: 53px;
+    font-size: 13px;
+    color: #222;
+    font-weight: 700;
+    order: 2;
+    transform: translate(274%, 230%);
+}
+
+.header-search {
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    width: 446px;
+    height: 46px;
+    border: 2px solid pink;
+    border-radius: 6px;
+    background-color: #fff;
+    transform: translate(2%, 91%);
+}
+
+.search-border {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-left: 14px;
+    border: none;
+    background: 0 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: normal;
+    color: #222;
+    text-align: left;
+    outline: 0;
+}
+
+.header-search-picture {
+    width: 7%;
+    cursor: pointer;
+    transform: translate(1294%, -127%);
+}
+
+.header-main-Info-sub {
+    display: flex;
+    height: 38px;
+}
+
+
+/* --- header-bottm 영역 ---*/
+
+.menubar-bundle {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.vl5 {
+    width: 1px;
+    border: 0;
+    background-color: #bbb;
+    height: 44px;
+    position: absolute;
+    left: 8px;
+    top: -2px;
+}
+
+.vl6 {
+    width: 1px;
+    border: 0;
+    background-color: #bbb;
+    height: 40px;
+    position: absolute;
+    left: 54px;
+    top: 1px;
+}
+
+.main-bar {
+    padding: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #222;
+}
+
+.main-bar img {
+    transform: translate(0%, -18%);
+}
+
+.menubar-submenu {
+    padding-top: 15px;
+}
+
+
+/* ------- main 영역 배너 ----------- */
+
+main {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.sub-banner-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.sub-banner-box {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.sub-banner-box li {
+    min-width: 100%;
+}
+
+.sub-banner-img {
+    display: block;
+    width: 100%;
+}
+
+
+/* footer 영역 */
+
+footer {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-corp {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    position: relative;
+}
+
+.footer-image img {
+    width: 60%;
+}
+
+.footer-content-left {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 22px;
+    color: #767676;
+    letter-spacing: -.2px;
+    transform: translate(-27%, 0%);
+}
+
+.footer-content-bottom {
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #767676;
+    letter-spacing: -.2px;
+    vertical-align: top;
+}
+
+.footer-content-right {
+    display: inline-block;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #767676;
+    letter-spacing: -.2px;
+    vertical-align: top;
+    transform: translate(37%, 0%);
+}
+
+.footer-content-bottom-number {
+    color: pink;
+    font-weight: bold;
+}
+
+.footer-content-question1 {
+    display: inline-block;
+    overflow: hidden;
+    height: 18px;
+    padding: 0 8px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    line-height: 18px;
+    color: #767676;
+    letter-spacing: -.66px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    transform: translate(0%, 50%);
+}
+
+.footer-content-question2 {
+    display: inline-block;
+    overflow: hidden;
+    height: 18px;
+    padding: 0 8px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    line-height: 18px;
+    color: #767676;
+    letter-spacing: -.66px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    transform: translate(107%, -60%);
+}
