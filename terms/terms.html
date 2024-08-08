@@ -1,0 +1,93 @@
+<!-- 이용약관 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingAngel-terms</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./terms.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script defer src="./terms.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1><img class="terms-logo" src="./../angel img/terms img/logo.jpg" alt="로고 이미지"></h1>
+    </header>
+
+    <main>
+        <h2>
+            <form id="terms-form" action="">
+                <div class="terms-title">이용약관 동의</div>
+                <div class="terms-All">
+                    <label>
+                        <input class="terms-checkbox" type="checkbox" name="check1" value="yes">
+                    </label>
+                    <strong>모두 확인, 동의합니다.</strong>
+                </div>
+                <div class="terms-14">
+                    <label>
+                        <input class="terms-checkbox1" type="checkbox" name="check2" value="yes">
+                    </label> 만 14세 이상입니다
+                    <p class="terms-bracket">(필수)</p>
+                </div>
+                <hr>
+                <div class="terms-agree">
+                    <label>
+                        <input class="terms-checkbox1" type="checkbox" name="check3" value="yes">
+                    </label> 이용약관 동의
+                    <p class="terms-bracket">(필수)</p>
+                    <a href="https://login.tmon.co.kr/policy/termsOfService" target="_blank">내용보기</a>
+                </div>
+                <hr>
+                <div class="terms-personal-1">
+                    <label>
+                        <input class="terms-checkbox1" type="checkbox" name="check4" value="yes">
+                    </label>
+                    <strong>개인정보 수집 및 이용동의</strong>
+                    <p class="terms-bracket">(필수)</p>
+                    <a onclick="show('termsHidden1');return false;" href="https://login.tmon.co.kr/policy/privacy" target="_blank">내용보기</a>
+                    <!-- <div id="termsHidden1" class="terms-hidden-box1" style="display: none;text-align:right;">
+                        <div class="terms-hidden-text1">
+                            <p>수집목적</p>
+                            
+                            <p>개인식별, 서비스 제공 및 상담 등 원활한 의사소통 경로 확보, 부정이용 방지</p>
+                        </div>
+                    </div> -->
+                </div>
+                <hr>
+                <div class="terms-personal-2">
+                    <label>
+                        <input class="terms-checkbox1" type="checkbox" name="check5" value="yes">
+                    </label> 개인정보 수집 및 이용동의
+                    <p class="terms-choice">(선택)</p>
+                    <a onclick="show('termsHidden2');return false;" href="https://login.tmon.co.kr/policy/privacy" target="_blank">내용보기</a>
+                    <!-- <div id="termsHidden2" class="terms-hidden-box2" style="display: none;text-align:right;">
+                        보이지 않는 내용
+                    </div> -->
+                </div>
+                <hr>
+                <div class="terms-email">
+                    <label>
+                        <input class="terms-checkbox1" type="checkbox" name="check6" value="yes">
+                    </label> 이메일 마케팅 수신 동의
+                    <a onclick="show('termsHidden3');return false;" href="https://login.tmon.co.kr/policy/termsOfService" target="_blank">내용보기</a>
+                    <!-- <div id="termsHidden3" class="terms-hidden-box3" style="display: none;text-align:right;">
+                        보이지 않는 내용
+                    </div> -->
+                </div>
+                <hr>
+                <div class="terms-submit">
+                    <button type="submit">동의하고 가입하기</button>
+                </div>
+            </form>
+        </h2>
+    </main>
+    <footer>
+        <span>COPYRIGHT. CODING ANGLE INC. ALL RIGHTS RESERVED.</span>
+    </footer>
+</body>
+
+</html>
