@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CodingAngel-login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./login.css">
+  <script defer src="./login.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="login-img">  
+        <a href ="#" target="_blank"><img src="./../angel img/login-img/engle_img.jpg" width="190px" height="145px"></a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="login-main">
+      <h2>로그인</h2>
+      <form>
+        <lable> 
+          <input type="text" id="id" placeholder="&nbsp;&nbsp;아이디를 입력하세요">
+        </lable>
+          <P id="id-result"></P>
+        <label>
+        <div class="container">
+          <input type="password" id="pw" name="pw" placeholder="&nbsp;&nbsp;비밀번호를 입력하세요">
+          <button id="togglePassword">
+              <img src="./../angel img/login-img/open.png" id="openIcon" class="show" width="30px" height="30px">
+              <img src="./../angel img/login-img/close.png" id="closeIcon" width="30px" height="30px">
+          </button>
+        </div>
+        </label>
+          <p id="pw-result"></p>
+        <button type="button" id="login">로그인</button>
+          <P id="login-result"></P>
+          <div class="login-auto-main">
+          <label class="login-auto"><input type="checkbox" name="choice" value="1">자동로그인</label>
+          </div>
+      <div class="logion-other-main">
+        <ul class="login-other">
+          <li class="login-join">회원가입</li>
+          <li class="login-line">|</li>
+          <li class="login-find">아이디/비밀번호 찾기</li>
+        </ul>
+      </div>
+        <section class="login-easy-main">
+          <span class="login-easy">간편로그인</span>
+            <div class="login-easy-img">
+              <a href="https://www.naver.com/"><img src="./../angel img/login-img/login-easy-naver.png" width="450px"></a>
+              <a href="https://www.kakaocorp.com/page/"><img src="./../angel img/login-img/login-easy-kaka0.png" width="450px"></a>
+              <a href="https://www.apple.com/kr/?afid=p238%7C0JcvszVE_mtid_18707vxu38484&cid=aos-kr-kwna-brand"><img src="./../angel img/login-img/login-easy-apple.png" width="450px"></a>
+            </div>
+        </section>
+      </form>
+    </div>
+  </main>
+<footer>  
+  <span>COPYRIGHT. CODING ANGLE INC. ALL RIGHTS RESERVED.</span>
+</footer>
+</body>
+</html>
