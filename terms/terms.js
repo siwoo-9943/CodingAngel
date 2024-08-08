@@ -23,3 +23,30 @@ $(document).ready(function() {
     });
 });
 
+
+
+// // div 숨겨진 박스 표시하기
+// function show(termsHidden1){
+
+//     if (document.getElementById(termsHidden1).style.display=="none") document.getElementById(termsHidden1).style.display="block"; //표시하게 하기
+
+//     else document.getElementById(termsHidden1).style.display="none"; //안보이게 하기
+
+// }
+
+// function show(termsHidden2){
+
+//     if (document.getElementById(termsHidden2).style.display=="none") document.getElementById(termsHidden2).style.display="block"; //표시하게 하기
+
+//     else document.getElementById(termsHidden2).style.display="none"; //안보이게 하기
+
+// }
+
+// function show(termsHidden3){
+
+//     if (document.getElementById(termsHidden3).style.display=="none") document.getElementById(termsHidden3).style.display="block"; //표시하게 하기
+
+//     else document.getElementById(termsHidden3).style.display="none"; //안보이게 하기
+
+// }
+
