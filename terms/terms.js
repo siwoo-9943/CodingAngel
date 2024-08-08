@@ -23,7 +23,7 @@ $(document).ready(function() {
     });
 });
 
-<<<<<<< HEAD
+
 
 // // div 숨겨진 박스 표시하기
 // function show(termsHidden1){
@@ -49,5 +49,4 @@ $(document).ready(function() {
 //     else document.getElementById(termsHidden3).style.display="none"; //안보이게 하기
 
 // }
-=======
->>>>>>> 8e5d60fd425448909fe8b1ea0e8f757f1b16d775
+
