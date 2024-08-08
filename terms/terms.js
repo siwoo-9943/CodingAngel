@@ -10,17 +10,20 @@ $(".terms-checkbox1").on("click", (e) => {
     $(".terms-checkbox").prop("checked", requiredCheckboxes.filter(":checked").length === 3);
 });
 
-
-
-// form 제출 시 필수 항목 체크 여부 확인
-$("#terms-form").on("submit", (e) => {
-    const requiredCheckboxes = $(".terms-checkbox1").slice(0, 3); // 필수 항목 선택
-    if (requiredCheckboxes.filter(":checked").length < 3) {
-        e.preventDefault(); // 폼 제출 막기
-        alert("필수 항목을 확인하고 체크해주세요.");
-    }
+$(document).ready(function() {
+    $("#terms-form").on("submit", function(e) {
+        const requiredCheckboxes = $(".terms-checkbox1").slice(0, 3); // 필수 항목 선택
+        if (requiredCheckboxes.filter(":checked").length < 3) {
+            e.preventDefault(); // 폼 제출 막기
+            alert("필수 항목을 확인하고 체크해주세요.");
+        } else {
+            e.preventDefault(); // 폼 제출 막기
+            window.location.href = "./../join/join.html"; // 경로 설정
+        }
+    });
 });
 
+<<<<<<< HEAD
 
 // // div 숨겨진 박스 표시하기
 // function show(termsHidden1){
@@ -46,3 +49,5 @@ $("#terms-form").on("submit", (e) => {
 //     else document.getElementById(termsHidden3).style.display="none"; //안보이게 하기
 
 // }
+=======
+>>>>>>> 8e5d60fd425448909fe8b1ea0e8f757f1b16d775
