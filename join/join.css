@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+main {
+  width: 70%;
+  margin: 0px auto;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* background-color: rgb(252,252,252); */
+}
+
+footer {
+  width: 70%;
+  margin: 0px auto;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* background-color: rgb(252,252,252); */
+}
+
+header {
+  height: 89px;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 60px;
+  background-color: white;
+  border-bottom: 1px solid #dfe2e6;
+}
+
+header a img{
+  width: 190px;
+  height: 145px;
+}
+
+
+
+main {
+  height: 1200px;
+  margin: 0px auto;
+}
+
+.main-wrap {
+  position: relative;
+  left: 300px;
+  line-height: 400%;
+  width: 500px;
+  
+}
+
+.main-title {
+  margin-left: 220px;
+}
+
+.king-text {
+  font-size: 20px;
+}
+
+.choice-span {
+  font-size: 15px;
+  line-height: 70px;
+  font-weight: 100;
+}
+
+p {
+  font-size: 15px
+}
+
+.main-input {
+  border-radius: 10px;
+  height: 50px;
+  width: 580px;
+  border-color: whitesmoke;
+  /* border-color: rgb(235, 113, 113); */
+}
+
+.year-box {
+  display: flex;
+}
+
+.gender-box {
+  display: flex;
+}
+
+
+/* .gender-radius{
+background-color: darkgray;
+border-radius: 10px;
+height: 70px;
+width: 550px;
+} */
+
+input[type=radio] {
+  height: 20px;
+  width: 50px;
+  border: 100px;
+  border-color: pink;
+}
+
+.join-complete {
+  background-color: pink;
+  border-radius: 10px;
+  height: 70px;
+  width: 580px;
+  margin-top: 100px;
+  cursor: pointer;
+  border : 1px solid gray;
+}
+
+.join-complete h3 {
+  text-align: center;
+  color: white;
+  line-height: 70px;
+}
+
+footer {
+  padding: 70px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 19px;
+  color: #aaa;
+  
+
+
+  /* height: 200px; */
+  /* background-color: beige; */
+}
+
+/* .footer-text {
+  text-align: center;
+  /* font-weight: 100; */
+  /* margin-top: 50px; */
+/* } */ 
